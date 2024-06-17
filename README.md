@@ -1,16 +1,10 @@
 # fastapi_sqlalchemy_alembic
 
-This repo is used as a part of a tutorial to show how to use Fastapi and pydantic with Sqlalchemy, postgresql, Alembic(for migrations).
+Project for Align Task
 
-The full article is published on medium [here](https://medium.com/@ahmed.nafies/fastapi-with-sqlalchemy-postgresql-and-alembic-and-of-course-docker-f2b7411ee396)
+## How to build and run
 
-## How to build
-
-    docker-compose build
-
-## How to run
-
-    docker-compose up
+    docker compose up --build (or docker-compose up --build for lower docker versions)
 
 and go to:
 
@@ -19,7 +13,6 @@ and go to:
 ## Documentation
 
     swagger - http://localhost:8000/docs
-    redoc - http://localhost:8000/redoc
 
 ## Pgadmin4
 
