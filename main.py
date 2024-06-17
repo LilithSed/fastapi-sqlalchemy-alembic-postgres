@@ -1,7 +1,7 @@
 import logging
 import os
 
-# import easyocr
+import easyocr
 # import PIL
 # import numpy
 import uvicorn
@@ -94,10 +94,8 @@ async def get_one(employee_id: int):
 # async def post_employee_image(req_body: Request, file: UploadFile = File(...)):
 #     if file is None:
 #         raise HTTPException(status_code=500, detail="missing file")
-
     
 #     return "AAA"
-
 
 
 if __name__ == "__main__":

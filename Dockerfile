@@ -9,6 +9,7 @@ WORKDIR /code/
 
 # Install dependencies
 RUN pip install pipenv
+RUN pip install easyocr
 COPY Pipfile Pipfile.lock /code/
 RUN pipenv install --system --dev
 
