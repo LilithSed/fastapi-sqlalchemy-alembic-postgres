@@ -1,7 +1,5 @@
 # fastapi_sqlalchemy_alembic
 
-Project for Align Task
-
 ## How to build and run
 
     docker compose up --build (or docker-compose up --build for lower docker versions)
